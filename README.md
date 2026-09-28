@@ -34,7 +34,6 @@
 PROGRAM HitungTotalTransaksiDanValidasiDiTokoBukuModern
 
 DEKLARASI:
-
     is_member : boolean
     jumlah_buku : integer
     total_awal : real
@@ -51,7 +50,7 @@ ALGORITMA:
         INPUT(total_awal)
         INPUT(jumlah_buku)
     ENDWHILE
-  UNTIL (total_awal >= 0) AND (jumlah_buku >= 1t)
+  UNTIL (total_awal >= 0) AND (jumlah_buku >= 1)
 
     INPUT(is_member)
 
